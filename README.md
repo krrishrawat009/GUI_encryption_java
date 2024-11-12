@@ -17,7 +17,10 @@ SecureEncryptor/
 
 Application Flow Diagram
 graph TD
-    A[Login Panel] --> B[Encryption Panel]
+    
+    A[Login Panel] -->
+    
+    B[Encryption Panel]
     B --> C[Encrypt Message]
     B --> D[Decrypt Message]
     B --> E[Upload File]
