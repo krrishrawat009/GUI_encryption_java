@@ -5,8 +5,7 @@ SecureEncryptor is a Java-based desktop application that provides a secure way f
 SecureEncryptor
 SecureEncryptor is a Java-based desktop application that provides a secure way for defence personnel to encrypt and decrypt messages and files. The application uses AES encryption and allows users to log their encryption/decryption activities. It also includes features like confidentiality marking, key resetting, and file upload/download capabilities.
 
-Directory Structure
-CopySecureEncryptor/
+SecureEncryptor/
 ├── src/
 │   └── main/
 │       └── java/
@@ -17,7 +16,7 @@ CopySecureEncryptor/
 └── README.md
 
 Application Flow Diagram
-mermaidCopygraph TD
+graph TD
     A[Login Panel] --> B[Encryption Panel]
     B --> C[Encrypt Message]
     B --> D[Decrypt Message]
@@ -26,7 +25,6 @@ mermaidCopygraph TD
     B --> G[Reset Key]
     B --> H[View Logs]
     B --> I[Clear Input/Output]
-
 Features
 
 Message Encryption and Decryption: The application allows users to encrypt and decrypt messages using AES encryption.
